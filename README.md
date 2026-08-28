@@ -133,7 +133,7 @@ Focused on IP networks and the Issue to Resolution process.
 
 ## Teaching and Technical Communication
 
-For several years, I have been teaching and sharing knowledge in both English and technology.
+For 2 years, I have been teaching and sharing knowledge in both English and technology.
 
 I have trained people from different professional backgrounds in English communication, including engineers, doctors, bankers, entrepreneurs, merchants and other professionals.
 
