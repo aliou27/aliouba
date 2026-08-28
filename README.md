@@ -81,7 +81,7 @@ The application has been published in production.
 
 The backend source code is maintained in a private repository.
 
-[[View Zikrou documentation](https://github.com/aliou27/zikrou)](#)
+[[View Zikrou documentation](https://github.com/aliou27/zikrou)]
 
 ---
 
