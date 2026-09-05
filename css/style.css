@@ -26,7 +26,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: "IBM Plex Sans", Arial, sans-serif;
-  line-height: 1.65;
+  line-height: 1.55;
   transition: background-color .2s ease, color .2s ease;
 }
 a { color: inherit; text-decoration: none; }
@@ -35,14 +35,14 @@ a:hover { color: var(--blue); }
 .site-header {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 28px 28px 22px;
+  padding: 20px 28px 17px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--line);
 }
-.brand { font-weight: 600; font-size: 1.05rem; letter-spacing: -0.02em; }
-nav { display: flex; align-items: center; gap: 24px; font-size: .9rem; }
+.brand { font-weight: 600; font-size: .92rem; letter-spacing: -0.02em; }
+nav { display: flex; align-items: center; gap: 20px; font-size: .78rem; }
 nav a { color: var(--muted); }
 nav a:hover { color: var(--blue); }
 
@@ -52,92 +52,98 @@ nav a:hover { color: var(--blue); }
   background: transparent;
   color: var(--ink);
   font: inherit;
-  font-size: .78rem;
-  padding: 6px 9px;
+  font-size: .72rem;
+  padding: 5px 8px;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
   cursor: pointer;
   transition: border-color .2s ease, color .2s ease, background-color .2s ease;
 }
 .theme-toggle:hover { color: var(--blue); border-color: var(--blue); }
-.theme-icon { font-size: .95rem; line-height: 1; }
 
 main { max-width: var(--max); margin: 0 auto; padding: 0 28px; }
-.hero { padding: 80px 0 90px; max-width: 850px; }
+.hero { padding: 68px 0 76px; max-width: 850px; }
 .eyebrow, .section-label, .tech, .project-number, small {
   font-family: "IBM Plex Mono", monospace;
 }
-.eyebrow { margin: 0 0 18px; color: var(--blue); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
+.eyebrow { margin: 0 0 16px; color: var(--blue); font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; }
 h1 {
   margin: 0;
-  max-width: 760px;
-  font-size: clamp(2rem, 3.5vw, 3.25rem);
-  line-height: 1.05;
+  max-width: 720px;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  line-height: 1.08;
   letter-spacing: -.035em;
   font-weight: 500;
 }
-.intro { max-width: 620px; margin: 26px 0 0; font-size: 1rem; color: var(--muted); }
-.links { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 28px; }
+.intro { max-width: 600px; margin: 22px 0 0; font-size: .92rem; color: var(--muted); }
+.links { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 24px; }
 .links a { border-bottom: 1px solid currentColor; padding-bottom: 2px; }
 .links .primary-link { color: var(--blue); }
-.links span { margin-left: 4px; }
 
 .section {
   display: grid;
-  grid-template-columns: 190px 1fr;
-  gap: 55px;
-  padding: 70px 0;
+  grid-template-columns: 170px 1fr;
+  gap: 45px;
+  padding: 58px 0;
   border-top: 1px solid var(--line);
 }
-.section-label { color: var(--muted); font-size: .74rem; text-transform: uppercase; letter-spacing: .06em; }
-.section-content { max-width: 780px; }
-.section-content > p { margin-top: 0; margin-bottom: 24px; font-size: 1.08rem; }
+.section-label { color: var(--muted); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; }
+.section-content { max-width: 760px; }
+.section-content > p { margin-top: 0; margin-bottom: 20px; font-size: .98rem; }
 .section-content strong { font-weight: 500; }
 
 .project-list { display: grid; gap: 0; }
-.project { display: grid; grid-template-columns: 55px 1fr; gap: 18px; padding: 28px 0; border-bottom: 1px solid var(--line); }
+.project { display: grid; grid-template-columns: 45px 1fr; gap: 16px; padding: 24px 0; border-bottom: 1px solid var(--line); }
 .project:first-child { padding-top: 0; }
-.project-number { color: var(--muted); font-size: .72rem; }
-.project h2 { margin: 0 0 8px; font-size: 1.55rem; font-weight: 500; letter-spacing: -.025em; }
-.project p { margin: 0 0 12px; color: var(--muted); }
-.project .tech { font-size: .72rem; color: var(--blue-dark); }
-.project a { display: inline-block; margin-top: 4px; color: var(--blue); font-size: .9rem; }
+.project-number { color: var(--muted); font-size: .68rem; }
+.project h2 { margin: 0 0 7px; font-size: 1.35rem; font-weight: 500; letter-spacing: -.025em; }
+.project p { margin: 0 0 10px; color: var(--muted); font-size: .92rem; }
+.project .tech { font-size: .68rem; color: var(--blue-dark); }
+.project a { display: inline-block; margin-top: 3px; color: var(--blue); font-size: .82rem; }
 
-.writing-grid { border-top: 1px solid var(--line); margin-top: 32px; }
-.writing-item { display: flex; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--line); }
-.writing-item small { color: var(--muted); font-size: .68rem; }
+.writing-grid { border-top: 1px solid var(--line); margin-top: 28px; }
+.writing-item { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.writing-item small { color: var(--muted); font-size: .64rem; }
 
-.experience { display: grid; grid-template-columns: 180px 1fr; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.experience { display: grid; grid-template-columns: 170px 1fr; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .experience strong { font-weight: 500; }
 .experience span { color: var(--muted); }
-.compact { padding-bottom: 85px; }
-.contact h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.05; letter-spacing: -.04em; font-weight: 500; }
+.compact { padding-bottom: 72px; }
+.contact h2 { margin: 0; font-size: clamp(1.8rem, 3.4vw, 2.8rem); line-height: 1.08; letter-spacing: -.04em; font-weight: 500; }
 
 footer {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 28px;
+  padding: 24px 28px;
   border-top: 1px solid var(--line);
   display: flex;
   justify-content: space-between;
   gap: 20px;
   color: var(--muted);
-  font-size: .78rem;
+  font-size: .72rem;
   font-family: "IBM Plex Mono", monospace;
 }
 
 @media (max-width: 700px) {
-  .site-header { padding: 22px 20px; }
-  nav { gap: 12px; font-size: .78rem; }
+  .site-header { padding: 17px 20px 14px; }
+  .brand { font-size: .82rem; }
+  nav { gap: 10px; font-size: .68rem; }
   nav a:nth-child(n+3) { display: none; }
-  .theme-toggle { padding: 5px 7px; }
+  .theme-toggle { padding: 4px 7px; font-size: .66rem; }
   main { padding: 0 20px; }
-  .hero { padding: 60px 0 70px; }
-  h1 { font-size: clamp(1.9rem, 9vw, 2.8rem); }
-  .intro { font-size: .98rem; }
-  .section { grid-template-columns: 1fr; gap: 22px; padding: 52px 0; }
-  .project { grid-template-columns: 35px 1fr; }
+  .hero { padding: 48px 0 58px; }
+  .eyebrow { font-size: .62rem; margin-bottom: 14px; }
+  h1 { font-size: clamp(1.7rem, 7.5vw, 2.35rem); line-height: 1.08; }
+  .intro { margin-top: 18px; font-size: .9rem; line-height: 1.55; }
+  .links { gap: 18px; margin-top: 22px; }
+  .links a { font-size: .88rem; }
+  .section { grid-template-columns: 1fr; gap: 18px; padding: 46px 0; }
+  .section-content > p { font-size: .92rem; }
+  .project { grid-template-columns: 30px 1fr; gap: 12px; padding: 22px 0; }
+  .project h2 { font-size: 1.18rem; }
+  .project p { font-size: .86rem; }
   .writing-item, .experience { grid-template-columns: 1fr; display: grid; }
-  footer { padding: 22px 20px; flex-direction: column; }
+  .experience { gap: 3px; }
+  .contact h2 { font-size: clamp(1.7rem, 7vw, 2.35rem); }
+  footer { padding: 20px; flex-direction: column; }
 }
