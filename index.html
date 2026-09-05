@@ -4,11 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Aliou Ba — Software Engineering, Cybersecurity, Cloud and Education." />
+  <meta name="theme-color" content="#fbfbf9" />
   <title>Aliou Ba — Software Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
+  <script>
+    (() => {
+      const saved = localStorage.getItem('theme');
+      if (saved) document.documentElement.dataset.theme = saved;
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -18,6 +25,10 @@
       <a href="#projects">Projects</a>
       <a href="#writing">Writing</a>
       <a href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+        <span class="theme-label">Dark</span>
+      </button>
     </nav>
   </header>
   <main>
@@ -38,5 +49,6 @@
     <section id="contact" class="section contact"><div class="section-label">05 / Contact</div><div class="section-content"><h2>Let’s build something useful.</h2><div class="links"><a class="primary-link" href="https://github.com/aliou27" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/aliou-ba-823557289/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://x.com/MisterAliouBa" target="_blank" rel="noreferrer">X ↗</a></div></div></section>
   </main>
   <footer><span>© 2026 Aliou Ba</span><span>Built with HTML, CSS & JavaScript</span></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
