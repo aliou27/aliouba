@@ -6,6 +6,17 @@
   --line: #dedfe2;
   --paper: #fbfbf9;
   --max: 1120px;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --blue: #5b9cff;
+  --blue-dark: #79adff;
+  --ink: #f1f3f5;
+  --muted: #a3a9b2;
+  --line: #30343a;
+  --paper: #111315;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -16,6 +27,7 @@ body {
   color: var(--ink);
   font-family: "IBM Plex Sans", Arial, sans-serif;
   line-height: 1.65;
+  transition: background-color .2s ease, color .2s ease;
 }
 a { color: inherit; text-decoration: none; }
 a:hover { color: var(--blue); }
@@ -30,9 +42,26 @@ a:hover { color: var(--blue); }
   border-bottom: 1px solid var(--line);
 }
 .brand { font-weight: 600; font-size: 1.05rem; letter-spacing: -0.02em; }
-nav { display: flex; gap: 24px; font-size: .9rem; }
+nav { display: flex; align-items: center; gap: 24px; font-size: .9rem; }
 nav a { color: var(--muted); }
 nav a:hover { color: var(--blue); }
+
+.theme-toggle {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: .78rem;
+  padding: 6px 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: border-color .2s ease, color .2s ease, background-color .2s ease;
+}
+.theme-toggle:hover { color: var(--blue); border-color: var(--blue); }
+.theme-icon { font-size: .95rem; line-height: 1; }
 
 main { max-width: var(--max); margin: 0 auto; padding: 0 28px; }
 .hero { padding: 105px 0 115px; max-width: 900px; }
@@ -101,6 +130,8 @@ footer {
 @media (max-width: 700px) {
   .site-header { padding: 22px 20px; }
   nav { gap: 12px; font-size: .78rem; }
+  nav a:nth-child(n+3) { display: none; }
+  .theme-toggle { padding: 5px 7px; }
   main { padding: 0 20px; }
   .hero { padding: 72px 0 80px; }
   h1 { font-size: clamp(2.7rem, 14vw, 4.3rem); }
