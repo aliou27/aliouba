@@ -198,9 +198,3 @@ I am currently preparing for:
 
 while building practical projects and preparing for my engineering internship and final-year project.
 
-
----
-
-## Philosophy
-
-Build. Secure. Explain.
