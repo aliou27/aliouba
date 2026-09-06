@@ -8,7 +8,6 @@
   --max: 1120px;
   color-scheme: light;
 }
-
 :root[data-theme="dark"] { --blue:#5b9cff; --blue-dark:#79adff; --ink:#f1f3f5; --muted:#a3a9b2; --line:#30343a; --paper:#111315; color-scheme:dark; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
@@ -31,7 +30,12 @@ h1 { margin:0; max-width:720px; font-size:clamp(1.8rem,3vw,2.8rem); line-height:
 .section-label { color:var(--muted); font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; } .section-content { max-width:760px; } .section-content>p { margin-top:0; margin-bottom:20px; font-size:.98rem; } .section-content strong { font-weight:500; }
 .project-list { display:grid; gap:0; } .project { display:grid; grid-template-columns:45px 1fr; gap:16px; padding:24px 0; border-bottom:1px solid var(--line); } .project:first-child { padding-top:0; } .project-number { color:var(--muted); font-size:.68rem; } .project h2 { margin:0 0 7px; font-size:1.35rem; font-weight:500; letter-spacing:-.025em; } .project p { margin:0 0 10px; color:var(--muted); font-size:.92rem; } .project .tech { font-size:.68rem; color:var(--blue-dark); } .project a { display:inline-block; margin-top:3px; color:var(--blue); font-size:.82rem; }
 .writing-grid { border-top:1px solid var(--line); margin-top:28px; } .writing-item { display:flex; justify-content:space-between; gap:20px; padding:16px 0; border-bottom:1px solid var(--line); } .writing-item small { color:var(--muted); font-size:.64rem; }
-.service-list { display:grid; border-top:1px solid var(--line); } .service-item { display:grid; grid-template-columns:45px 190px 1fr; gap:16px; align-items:baseline; padding:20px 0; border-bottom:1px solid var(--line); } .service-number { color:var(--muted); font-size:.68rem; } .service-item h2 { margin:0; font-size:1.08rem; font-weight:500; letter-spacing:-.02em; } .service-item p { margin:0; color:var(--muted); font-size:.9rem; }
+.service-list { display:grid; border-top:1px solid var(--line); }
+.service-item { display:grid; grid-template-columns:45px 220px minmax(0,1fr); gap:16px; align-items:baseline; padding:22px 0; border-bottom:1px solid var(--line); }
+.service-item > div { display:contents; }
+.service-number { color:var(--muted); font-size:.68rem; }
+.service-item h2 { margin:0; font-size:1.08rem; font-weight:500; letter-spacing:-.02em; }
+.service-item p { margin:0; color:var(--muted); font-size:.9rem; }
 .service-process { display:grid; border-top:1px solid var(--line); margin-top:28px; } .service-process>div { display:grid; grid-template-columns:45px 100px 1fr; gap:16px; align-items:baseline; padding:16px 0; border-bottom:1px solid var(--line); } .service-process span { color:var(--muted); font-family:"IBM Plex Mono",monospace; font-size:.68rem; } .service-process strong { font-weight:500; } .service-process small { color:var(--muted); font-size:.68rem; }
 .request-title { margin:0 0 12px; font-size:clamp(1.7rem,3vw,2.35rem); line-height:1.12; letter-spacing:-.035em; font-weight:500; }
 .course-form { border-top:1px solid var(--line); margin-top:28px; }
