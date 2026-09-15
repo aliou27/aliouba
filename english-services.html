@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="The English You Need — practical English training for French-speaking learners.">
+<meta name="description" content="The English You Need — formation en anglais pour francophones, en petit groupe ou en accompagnement individuel.">
 <title>The English You Need | Aliou Ba</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,159 +12,166 @@
 <script>(()=>{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t})()</script>
 <style>
 .english-page{max-width:1200px;margin:0 auto;padding:0 28px}
-.english-page .hero{padding:92px 0 82px;max-width:850px}
+.english-page .hero{padding:92px 0 72px;max-width:850px}
 .english-page .hero h1{max-width:780px;margin:16px 0 22px}
 .english-page .hero .intro{max-width:700px}
 .english-page .hero-meta{margin-top:22px;color:var(--muted);font:500 .7rem "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.04em}
-.english-page .section{padding:72px 0}
-.english-page .section + .section{border-top:1px solid var(--line)}
+.english-page .section{padding:62px 0}
 .english-page .section-content{max-width:820px}
-.english-page h2{font-size:1.55rem;line-height:1.28;margin:0 0 16px}
+.english-page h2{font-size:1.55rem;line-height:1.25;margin:0 0 16px}
 .english-page p{max-width:720px}
-.english-page .offer{margin-top:28px;padding:0;border:0}
-.english-page .offer-meta{margin:0 0 10px;color:var(--muted);font-size:.88rem}
-.english-page .price-line{font-size:1rem;font-weight:600;margin:0 0 22px}
+.english-page .problem{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.english-page .offer{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 0;margin-top:24px}
+.english-page .offer-meta{margin:20px 0 18px;color:var(--muted);font-size:.84rem}
+.english-page .price-line{font-size:1.02rem;font-weight:600;margin:0 0 22px}
 .english-page .price-line span{color:var(--muted);font-weight:400}
-.english-page .cta{display:inline-block;border:0;padding:10px 0;color:var(--text);text-decoration:none;font-weight:600}
-.english-page .cta:hover{color:var(--blue)}
-.english-page .learning{display:grid;grid-template-columns:1fr 1fr;gap:34px 60px;margin-top:28px}
-.english-page .learning div{padding:0}
-.english-page .learning strong{display:block;font-size:.95rem;margin-bottom:5px}
-.english-page .learning span{display:block;color:var(--muted);font-size:.86rem;line-height:1.5}
-.english-page .audience ul{margin:22px 0 0;padding:0;list-style:none;max-width:700px}
-.english-page .audience li{margin:0 0 14px;padding-left:18px;font-size:.9rem;position:relative}
-.english-page .audience li::before{content:'—';position:absolute;left:0;color:var(--muted)}
-.english-page .proof{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:10px}
-.english-page .proof div{padding:0}
-.english-page .proof strong{display:block;font-size:1.45rem;margin-bottom:5px}
-.english-page .proof span{color:var(--muted);font-size:.84rem;line-height:1.45}
+.english-page .cta{display:inline-block;border:1px solid var(--text);padding:11px 15px;color:var(--text);text-decoration:none;font-weight:500}
+.english-page .cta:hover{color:var(--blue);border-color:var(--blue)}
+.english-page .learning{display:grid;grid-template-columns:1fr 1fr;gap:0 48px;margin-top:26px}
+.english-page .learning div{padding:15px 0}
+.english-page .learning strong{display:block;font-size:.92rem;margin-bottom:4px}
+.english-page .learning span{display:block;color:var(--muted);font-size:.84rem;line-height:1.5}
+.english-page .audience{border-top:1px solid var(--line)}
+.english-page .audience ul{margin:20px 0 0;padding-left:20px;max-width:700px}
+.english-page .audience li{margin:9px 0;font-size:.9rem}
+.english-page .proof{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:25px}
+.english-page .proof div{padding-top:14px}
+.english-page .proof strong{display:block;font-size:1.25rem;margin-bottom:4px}
+.english-page .proof span{color:var(--muted);font-size:.8rem;line-height:1.45}
+.english-page .individual{border-top:1px solid var(--line)}
 .english-page .individual-line{margin-top:20px;font-weight:500}
 .english-page .individual-line span{color:var(--muted);font-weight:400}
-.english-page .final{padding:78px 0 90px}
-.english-page .final .intro-final{margin-bottom:22px}
-.english-page .contact-links{display:flex;gap:22px;flex-wrap:wrap}
-.english-page .secondary{color:var(--muted);text-decoration:none;padding:10px 0}
-.english-page .secondary:hover{color:var(--blue)}
-@media(max-width:700px){
-  .english-page{padding:0 20px}
-  .english-page .hero{padding:62px 0 58px}
-  .english-page .section{padding:52px 0}
-  .english-page .learning,.english-page .proof{grid-template-columns:1fr;gap:25px}
-  .english-page .final{padding:58px 0 68px}
-  .english-page h2{font-size:1.35rem}
-}
+.english-page .final{border-top:1px solid var(--line);padding:72px 0 90px}
+.english-page .final .intro-final{margin-bottom:24px}
+.english-page .contact-links{display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin-top:26px}
+.english-page .contact-link{display:inline-flex;align-items:center;gap:8px;color:var(--text);text-decoration:none;font-weight:500;font-size:.9rem}
+.english-page .contact-link:hover{color:var(--blue)}
+.english-page .contact-icon{width:17px;height:17px;fill:currentColor;flex:0 0 17px}
+.english-page .language-switch{white-space:nowrap}
+@media(max-width:700px){.english-page{padding:0 20px}.english-page .hero{padding:62px 0 48px}.english-page .section{padding:44px 0}.english-page .learning,.english-page .proof{grid-template-columns:1fr}.english-page .final{padding:52px 0 65px}.english-page h2{font-size:1.35rem}}
 </style>
 </head>
 <body>
 <header class="site-header">
 <a class="brand" href="index.html">Aliou Ba</a>
 <nav aria-label="Main navigation">
-<a href="index.html#about" data-copy="navAbout">À propos</a>
-<a href="index.html#projects" data-copy="navProjects">Projets</a>
-<a href="index.html#writing" data-copy="navWriting">Écriture</a>
-<a href="english-services.html" data-copy="navEnglish">The English You Need</a>
-<a href="index.html#contact" data-copy="navContact">Contact</a>
-<div class="language-switch" aria-label="Language"><button class="language-button active" type="button" data-lang="fr">FR</button><span>/</span><button class="language-button" type="button" data-lang="en">EN</button></div>
+<a href="index.html#about" data-i18n="navAbout">À propos</a>
+<a href="index.html#projects" data-i18n="navProjects">Projets</a>
+<a href="index.html#writing" data-i18n="navWriting">Écriture</a>
+<a href="english-services.html" data-i18n="navEnglish">The English You Need</a>
+<a href="index.html#contact" data-i18n="navContact">Contact</a>
+<div class="language-switch" aria-label="Language"><button class="language-button" type="button" data-lang="en">EN</button><span>/</span><button class="language-button active" type="button" data-lang="fr">FR</button></div>
 <button class="theme-toggle" id="themeToggle" type="button"><span id="themeLabel">Sombre</span></button>
 </nav>
 </header>
 
 <main class="english-page">
 <section class="hero">
-<p class="eyebrow" data-copy="eyebrow">The English You Need · Formation en anglais</p>
-<h1 data-copy="hero">Comprendre l’anglais ne suffit pas.</h1>
-<p class="intro" data-copy="intro">Apprenez à parler, écrire et utiliser l’anglais avec confiance dans vos études et votre vie professionnelle.</p>
-<p class="hero-meta" data-copy="meta">Formation en ligne pour francophones</p>
-<div class="links" style="margin-top:26px"><a class="primary-link" href="#program" data-copy="heroCta">Découvrir la formation</a></div>
+<p class="eyebrow" data-i18n="eyebrow">The English You Need · Formation en anglais</p>
+<h1 data-i18n="hero">Comprendre l’anglais ne suffit pas.</h1>
+<p class="intro" data-i18n="intro">Apprenez à parler, écrire et utiliser l’anglais avec confiance dans vos études et votre vie professionnelle.</p>
+<p class="hero-meta" data-i18n="meta">Formation en ligne pour francophones</p>
+<div class="links" style="margin-top:26px"><a class="primary-link" href="#program" data-i18n="heroCta">Découvrir la formation</a></div>
 </section>
 
-<section class="section">
-<div class="section-label" data-copy="problemLabel">Le problème</div>
+<section class="section problem">
+<div class="section-label" data-i18n="problemLabel">Le problème</div>
 <div class="section-content">
-<h2 data-copy="problemTitle">Vous avez appris l’anglais. Mais vous ne l’utilisez pas encore naturellement.</h2>
-<p data-copy="problemText">Vous comprenez peut-être des textes, des vidéos ou des conversations. Mais lorsqu’il faut parler, écrire un message professionnel, participer à une réunion ou passer un entretien, tout devient plus difficile.</p>
-<p data-copy="problemEnd">The English You Need vous aide à faire le passage entre comprendre l’anglais et l’utiliser réellement.</p>
+<h2 data-i18n="problemTitle">Vous avez appris l’anglais. Mais vous ne l’utilisez pas encore naturellement.</h2>
+<p data-i18n="problemText">Vous comprenez peut-être des textes, des vidéos ou des conversations. Mais lorsqu’il faut parler, écrire un message professionnel, participer à une réunion ou passer un entretien, tout devient plus difficile.</p>
+<p data-i18n="problemEnd"><strong>The English You Need</strong> vous aide à faire le passage entre comprendre l’anglais et l’utiliser réellement.</p>
 </div>
 </section>
 
 <section id="program" class="section">
-<div class="section-label" data-copy="programLabel">Formation</div>
+<div class="section-label" data-i18n="programLabel">Formation</div>
 <div class="section-content">
-<h2 data-copy="programTitle">Formation en petit groupe</h2>
-<p data-copy="programText">Un petit groupe, une pratique régulière et une méthode structurée pour utiliser l’anglais dans des situations réelles.</p>
+<h2 data-i18n="programTitle">Formation en petit groupe</h2>
+<p data-i18n="programText">Un petit groupe, une pratique régulière et une méthode structurée pour utiliser l’anglais dans des situations réelles.</p>
 <div class="offer">
-<p class="offer-meta" data-copy="format">3–4 personnes maximum · 100 % en ligne</p>
-<p class="price-line"><span data-copy="priceLabel">Tarif :</span> 50 000 FCFA <span data-copy="registration">d’inscription</span> · 50 000 FCFA <span data-copy="monthly">par mois</span></p>
-<a class="cta" href="#contact" data-copy="programCta">Rejoindre la prochaine cohorte →</a>
+<p class="offer-meta" data-i18n="format">3–4 personnes maximum · 100 % en ligne</p>
+<p class="price-line"><span data-i18n="priceLabel">Tarif :</span> 50 000 FCFA <span data-i18n="registration">d’inscription</span> · 50 000 FCFA <span data-i18n="monthly">par mois</span></p>
+<a class="cta" href="#contact" data-i18n="programCta">Rejoindre la prochaine cohorte →</a>
 </div>
 </div>
 </section>
 
 <section class="section">
-<div class="section-label" data-copy="learningLabel">Au programme</div>
+<div class="section-label" data-i18n="learningLabel">Au programme</div>
 <div class="section-content">
 <div class="learning">
-<div><strong data-copy="learn1t">Parler</strong><span data-copy="learn1">Exprimer vos idées plus clairement et participer aux conversations.</span></div>
-<div><strong data-copy="learn2t">Comprendre</strong><span data-copy="learn2">Améliorer votre compréhension de l’anglais parlé et des situations réelles.</span></div>
-<div><strong data-copy="learn3t">Écrire</strong><span data-copy="learn3">Écrire des messages, e-mails et textes adaptés au contexte professionnel.</span></div>
-<div><strong data-copy="learn4t">Utiliser</strong><span data-copy="learn4">Préparer des entretiens, réunions, présentations et situations professionnelles.</span></div>
+<div><strong data-i18n="learn1t">Parler</strong><span data-i18n="learn1">Exprimer vos idées plus clairement et participer aux conversations.</span></div>
+<div><strong data-i18n="learn2t">Comprendre</strong><span data-i18n="learn2">Améliorer votre compréhension de l’anglais parlé et des situations réelles.</span></div>
+<div><strong data-i18n="learn3t">Écrire</strong><span data-i18n="learn3">Écrire des messages, e-mails et textes adaptés au contexte professionnel.</span></div>
+<div><strong data-i18n="learn4t">Utiliser</strong><span data-i18n="learn4">Préparer des entretiens, réunions, présentations et situations professionnelles.</span></div>
 </div>
 </div>
 </section>
 
 <section class="section audience">
-<div class="section-label" data-copy="audienceLabel">Pour qui ?</div>
+<div class="section-label" data-i18n="audienceLabel">Pour qui ?</div>
 <div class="section-content">
-<h2 data-copy="audienceTitle">Cette formation est faite pour vous si…</h2>
+<h2 data-i18n="audienceTitle">Cette formation est faite pour vous si…</h2>
 <ul>
-<li data-copy="aud1">Vous êtes étudiant et vous voulez être plus à l’aise en anglais.</li>
-<li data-copy="aud2">Vous travaillez et l’anglais devient important dans votre environnement professionnel.</li>
-<li data-copy="aud3">Vous cherchez un emploi et vous voulez pouvoir répondre à des entretiens en anglais.</li>
-<li data-copy="aud4">Vous avez déjà quelques bases mais vous bloquez lorsqu’il faut réellement parler.</li>
+<li data-i18n="aud1">Vous êtes étudiant et vous voulez être plus à l’aise en anglais.</li>
+<li data-i18n="aud2">Vous travaillez et l’anglais devient important dans votre environnement professionnel.</li>
+<li data-i18n="aud3">Vous cherchez un emploi et vous voulez pouvoir répondre à des entretiens en anglais.</li>
+<li data-i18n="aud4">Vous avez déjà quelques bases mais vous bloquez lorsqu’il faut réellement parler.</li>
 </ul>
 </div>
 </section>
 
 <section class="section">
-<div class="section-label" data-copy="proofLabel">Déjà accompagné</div>
+<div class="section-label" data-i18n="proofLabel">Déjà accompagné</div>
 <div class="section-content">
 <div class="proof">
-<div><strong>50+</strong><span data-copy="proof1">apprenants accompagnés</span></div>
-<div><strong>1 000+</strong><span data-copy="proof2">exemplaires de The English You Need vendus</span></div>
-<div><strong>2024</strong><span data-copy="proof3">début des formations et produits éducatifs</span></div>
+<div><strong>50+</strong><span data-i18n="proof1">apprenants accompagnés</span></div>
+<div><strong>1 000+</strong><span data-i18n="proof2">exemplaires de The English You Need vendus</span></div>
+<div><strong>2024</strong><span data-i18n="proof3">début des formations et produits éducatifs</span></div>
 </div>
 </div>
 </section>
 
-<section class="section">
-<div class="section-label" data-copy="individualLabel">Accompagnement individuel</div>
+<section class="section individual">
+<div class="section-label" data-i18n="individualLabel">Accompagnement individuel</div>
 <div class="section-content">
-<h2 data-copy="individualTitle">Besoin d’un accompagnement personnalisé ?</h2>
-<p data-copy="individualText">Cours individuel ou orientation, selon votre objectif et votre situation.</p>
-<p class="individual-line"><strong>10 000 FCFA / heure</strong> <span>· <span data-copy="individualServices">cours individuel ou orientation</span></span></p>
+<h2 data-i18n="individualTitle">Besoin d’un accompagnement personnalisé ?</h2>
+<p data-i18n="individualText">Cours individuel ou orientation, selon votre objectif et votre situation.</p>
+<p class="individual-line">10 000 FCFA / heure <span>· <span data-i18n="individualServices">cours individuel ou orientation</span></span></p>
 </div>
 </section>
 
-<section id="contact" class="section final">
-<div class="section-label" data-copy="contactLabel">Commencer</div>
+<section id="contact" class="final">
+<div class="section-label" data-i18n="contactLabel">Rejoindre la formation</div>
 <div class="section-content">
-<h2 data-copy="contactTitle">Prêt à mieux utiliser votre anglais ?</h2>
-<p class="intro-final" data-copy="contactText">Écrivez-moi pour rejoindre la prochaine cohorte ou discuter de l’accompagnement qui vous convient.</p>
-<div class="contact-links">
-<a class="cta" href="https://wa.me/221764222210" target="_blank" rel="noreferrer" data-copy="whatsapp">Écrire sur WhatsApp →</a>
-<a class="secondary" href="mailto:misteraliouba@gmail.com">misteraliouba@gmail.com</a>
+<h2 data-i18n="contactTitle">Prêt à rejoindre The English You Need ?</h2>
+<p class="intro-final" data-i18n="contactText">Écrivez-moi pour rejoindre la prochaine cohorte ou discuter de l’accompagnement individuel.</p>
+<div class="contact-links" aria-label="Contact">
+<a class="contact-link" href="https://wa.me/221764222210" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+<svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.78 11.78 0 0 0 12.12 0C5.61 0 .32 5.29.32 11.8c0 2.08.54 4.11 1.57 5.9L.22 24l6.48-1.64a11.78 11.78 0 0 0 5.42 1.3h.01c6.51 0 11.8-5.29 11.8-11.8 0-3.15-1.23-6.11-3.41-8.38ZM12.13 21.65h-.01a9.84 9.84 0 0 1-5.02-1.37l-.36-.21-3.85.98 1.03-3.75-.23-.39a9.84 9.84 0 1 1 8.44 4.74Zm5.41-7.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.74-1.64-2.03-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.03 1-1.03 2.45s1.05 2.84 1.2 3.03c.15.2 2.07 3.16 5.01 4.43.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.11.56-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg>
+<span>WhatsApp</span>
+</a>
+<a class="contact-link" href="mailto:misteraliouba@gmail.com" aria-label="Email">
+<svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.51l9 5.62 9-5.62V7H3Zm18 10V9.86l-8.47 5.3a1 1 0 0 1-1.06 0L3 9.86V17h18Z"/></svg>
+<span>misteraliouba@gmail.com</span>
+</a>
 </div>
 </div>
 </section>
 </main>
-<footer><span>© 2026 Aliou Ba</span><span>Built with HTML, CSS & JavaScript</span></footer>
+<footer><span>© 2026 Aliou Ba</span><span>Built with HTML, CSS &amp; JavaScript</span></footer>
 
 <script>
 (()=>{
-const c={fr:{navAbout:'À propos',navProjects:'Projets',navWriting:'Écriture',navEnglish:'The English You Need',navContact:'Contact',eyebrow:'The English You Need · Formation en anglais',hero:'Comprendre l’anglais ne suffit pas.',intro:'Apprenez à parler, écrire et utiliser l’anglais avec confiance dans vos études et votre vie professionnelle.',meta:'Formation en ligne pour francophones',heroCta:'Découvrir la formation',problemLabel:'Le problème',problemTitle:'Vous avez appris l’anglais. Mais vous ne l’utilisez pas encore naturellement.',problemText:'Vous comprenez peut-être des textes, des vidéos ou des conversations. Mais lorsqu’il faut parler, écrire un message professionnel, participer à une réunion ou passer un entretien, tout devient plus difficile.',problemEnd:'The English You Need vous aide à faire le passage entre comprendre l’anglais et l’utiliser réellement.',programLabel:'Formation',programTitle:'Formation en petit groupe',programText:'Un petit groupe, une pratique régulière et une méthode structurée pour utiliser l’anglais dans des situations réelles.',format:'3–4 personnes maximum · 100 % en ligne',priceLabel:'Tarif :',registration:'d’inscription',monthly:'par mois',programCta:'Rejoindre la prochaine cohorte →',learningLabel:'Au programme',learn1t:'Parler',learn1:'Exprimer vos idées plus clairement et participer aux conversations.',learn2t:'Comprendre',learn2:'Améliorer votre compréhension de l’anglais parlé et des situations réelles.',learn3t:'Écrire',learn3:'Écrire des messages, e-mails et textes adaptés au contexte professionnel.',learn4t:'Utiliser',learn4:'Préparer des entretiens, réunions, présentations et situations professionnelles.',audienceLabel:'Pour qui ?',audienceTitle:'Cette formation est faite pour vous si…',aud1:'Vous êtes étudiant et vous voulez être plus à l’aise en anglais.',aud2:'Vous travaillez et l’anglais devient important dans votre environnement professionnel.',aud3:'Vous cherchez un emploi et vous voulez pouvoir répondre à des entretiens en anglais.',aud4:'Vous avez déjà quelques bases mais vous bloquez lorsqu’il faut réellement parler.',proofLabel:'Déjà accompagné',proof1:'apprenants accompagnés',proof2:'exemplaires de The English You Need vendus',proof3:'début des formations et produits éducatifs',individualLabel:'Accompagnement individuel',individualTitle:'Besoin d’un accompagnement personnalisé ?',individualText:'Cours individuel ou orientation, selon votre objectif et votre situation.',individualServices:'cours individuel ou orientation',contactLabel:'Commencer',contactTitle:'Prêt à mieux utiliser votre anglais ?',contactText:'Écrivez-moi pour rejoindre la prochaine cohorte ou discuter de l’accompagnement qui vous convient.',whatsapp:'Écrire sur WhatsApp →'},en:{navAbout:'About',navProjects:'Projects',navWriting:'Writing',navEnglish:'The English You Need',navContact:'Contact',eyebrow:'The English You Need · English training',hero:'Understanding English is not enough.',intro:'Learn to speak, write and use English with confidence in your studies and professional life.',meta:'Online English training for French-speaking learners',heroCta:'Discover the program',problemLabel:'The problem',problemTitle:'You have learned English. But you still do not use it naturally.',problemText:'You may understand texts, videos or conversations. But when you have to speak, write a professional message, join a meeting or handle an interview, things become harder.',problemEnd:'The English You Need helps you make the transition from understanding English to actually using it.',programLabel:'Program',programTitle:'Small-group English program',programText:'A small group, regular practice and a structured method to use English in real situations.',format:'3–4 people maximum · 100% online',priceLabel:'Price:',registration:'registration',monthly:'per month',programCta:'Join the next cohort →',learningLabel:'What you will work on',learn1t:'Speak',learn1:'Express your ideas more clearly and take part in conversations.',learn2t:'Understand',learn2:'Improve your understanding of spoken English and real situations.',learn3t:'Write',learn3:'Write messages, emails and texts suited to professional contexts.',learn4t:'Use',learn4:'Prepare for interviews, meetings, presentations and professional situations.',audienceLabel:'Who it is for',audienceTitle:'This program is for you if…',aud1:'You are a student and want to feel more comfortable using English.',aud2:'You work and English is becoming important in your professional environment.',aud3:'You are looking for a job and want to handle interviews in English.',aud4:'You already have some foundations but struggle when you actually have to speak.',proofLabel:'Already supported',proof1:'learners supported',proof2:'copies of The English You Need sold',proof3:'training and educational products since 2024',individualLabel:'Individual support',individualTitle:'Need personalized support?',individualText:'Private lessons or orientation, depending on your goal and situation.',individualServices:'private lesson or orientation',contactLabel:'Get started',contactTitle:'Ready to use your English better?',contactText:'Message me to join the next cohort or discuss the support that fits you.',whatsapp:'Contact me on WhatsApp →'}};
-function apply(lang){document.documentElement.lang=lang;document.querySelectorAll('[data-copy]').forEach(el=>{const k=el.dataset.copy;if(c[lang][k]!==undefined)el.textContent=c[lang][k]});document.querySelectorAll('.language-button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));localStorage.setItem('language',lang)}
-document.querySelectorAll('.language-button').forEach(b=>b.addEventListener('click',()=>apply(b.dataset.lang)));
-apply(localStorage.getItem('language')||'fr');
+const c={
+fr:{navAbout:'À propos',navProjects:'Projets',navWriting:'Écriture',navEnglish:'The English You Need',navContact:'Contact',eyebrow:'The English You Need · Formation en anglais',hero:'Comprendre l’anglais ne suffit pas.',intro:'Apprenez à parler, écrire et utiliser l’anglais avec confiance dans vos études et votre vie professionnelle.',meta:'Formation en ligne pour francophones',heroCta:'Découvrir la formation',problemLabel:'Le problème',problemTitle:'Vous avez appris l’anglais. Mais vous ne l’utilisez pas encore naturellement.',problemText:'Vous comprenez peut-être des textes, des vidéos ou des conversations. Mais lorsqu’il faut parler, écrire un message professionnel, participer à une réunion ou passer un entretien, tout devient plus difficile.',problemEnd:'<strong>The English You Need</strong> vous aide à faire le passage entre comprendre l’anglais et l’utiliser réellement.',programLabel:'Formation',programTitle:'Formation en petit groupe',programText:'Un petit groupe, une pratique régulière et une méthode structurée pour utiliser l’anglais dans des situations réelles.',format:'3–4 personnes maximum · 100 % en ligne',priceLabel:'Tarif :',registration:'d’inscription',monthly:'par mois',programCta:'Rejoindre la prochaine cohorte →',learningLabel:'Au programme',learn1t:'Parler',learn1:'Exprimer vos idées plus clairement et participer aux conversations.',learn2t:'Comprendre',learn2:'Améliorer votre compréhension de l’anglais parlé et des situations réelles.',learn3t:'Écrire',learn3:'Écrire des messages, e-mails et textes adaptés au contexte professionnel.',learn4t:'Utiliser',learn4:'Préparer des entretiens, réunions, présentations et situations professionnelles.',audienceLabel:'Pour qui ?',audienceTitle:'Cette formation est faite pour vous si…',aud1:'Vous êtes étudiant et vous voulez être plus à l’aise en anglais.',aud2:'Vous travaillez et l’anglais devient important dans votre environnement professionnel.',aud3:'Vous cherchez un emploi et vous voulez pouvoir répondre à des entretiens en anglais.',aud4:'Vous avez déjà quelques bases mais vous bloquez lorsqu’il faut réellement parler.',proofLabel:'Déjà accompagné',proof1:'apprenants accompagnés',proof2:'exemplaires de The English You Need vendus',proof3:'début des formations et produits éducatifs',individualLabel:'Accompagnement individuel',individualTitle:'Besoin d’un accompagnement personnalisé ?',individualText:'Cours individuel ou orientation, selon votre objectif et votre situation.',individualServices:'cours individuel ou orientation',contactLabel:'Rejoindre la formation',contactTitle:'Prêt à rejoindre The English You Need ?',contactText:'Écrivez-moi pour rejoindre la prochaine cohorte ou discuter de l’accompagnement individuel.'},
+en:{navAbout:'About',navProjects:'Projects',navWriting:'Writing',navEnglish:'The English You Need',navContact:'Contact',eyebrow:'The English You Need · English training',hero:'Understanding English is not enough.',intro:'Learn to speak, write and use English with confidence in your studies and professional life.',meta:'Online English training for French-speaking learners',heroCta:'Discover the program',problemLabel:'The problem',problemTitle:'You have learned English. But you still do not use it naturally.',problemText:'You may understand texts, videos or conversations. But when you have to speak, write a professional message, join a meeting or handle an interview, things become harder.',problemEnd:'<strong>The English You Need</strong> helps you make the transition from understanding English to actually using it.',programLabel:'Program',programTitle:'Small-group English program',programText:'A small group, regular practice and a structured method to use English in real situations.',format:'3–4 people maximum · 100% online',priceLabel:'Price:',registration:'registration',monthly:'per month',programCta:'Join the next cohort →',learningLabel:'What you will work on',learn1t:'Speak',learn1:'Express your ideas more clearly and take part in conversations.',learn2t:'Understand',learn2:'Improve your understanding of spoken English and real situations.',learn3t:'Write',learn3:'Write messages, emails and texts suited to professional contexts.',learn4t:'Use it',learn4:'Prepare for interviews, meetings, presentations and professional situations.',audienceLabel:'Who it is for',audienceTitle:'This program is for you if…',aud1:'You are a student and want to feel more comfortable using English.',aud2:'You work and English is becoming important in your professional environment.',aud3:'You are looking for a job and want to handle interviews in English.',aud4:'You already have some foundations but freeze when you actually need to speak.',proofLabel:'Already supported',proof1:'learners supported',proof2:'copies of The English You Need sold',proof3:'training and educational products since',individualLabel:'Individual support',individualTitle:'Need personalized support?',individualText:'Private lessons or orientation, depending on your goal and situation.',individualServices:'private lesson or orientation',contactLabel:'Join the program',contactTitle:'Ready to join The English You Need?',contactText:'Message me to join the next cohort or discuss individual support.'}};
+const apply=lang=>{document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(c[lang][k]!=null){if(k==='problemEnd')el.innerHTML=c[lang][k];else el.textContent=c[lang][k]}});document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));localStorage.setItem('language',lang)};
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>apply(b.dataset.lang)));
+const saved=localStorage.getItem('language')||'fr';apply(saved);
+const toggle=document.getElementById('themeToggle'),label=document.getElementById('themeLabel');
+const updateTheme=()=>{const dark=document.documentElement.dataset.theme==='dark';label.textContent=dark?'Clair':'Sombre';toggle.setAttribute('aria-pressed',dark?'true':'false')};
+toggle.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;localStorage.setItem('theme',next);updateTheme()});updateTheme();
 })();
 </script>
 </body>
